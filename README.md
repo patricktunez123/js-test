@@ -1,6 +1,6 @@
 # js-test
 
-Kapp's JavaScript Test.
+Kapp's JavaScript Test. Click me to view it in your browser <https://patricktunez123.github.io/js-test/index.html>
 
 ## Used Tools and Technologies
 
@@ -8,6 +8,10 @@ Kapp's JavaScript Test.
 
 - Javascript
 - HTML
+
+### Style
+
+- CSS
 
 ## How to set up and test this app
 
@@ -17,13 +21,6 @@ These instructions will get you a copy of this project up and running on your lo
 
 To install this project on your local machine, you need first to clone the repository ```https://github.com/patricktunez123/js-test.git``` or download the zip file.
 
-## Installing
-
-The installation of this application is fairly straightforward, After cloning this repository to your local machine, cd into it using your terminal and run the following command
-
-- npm install
-
-It will install the node_modules which will help you run this project on your local machine.
 
 ## Author
 
