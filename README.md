@@ -17,6 +17,10 @@ Kapp's JavaScript Test. Click this link to view this simple project in your brow
 
 These instructions will get you a copy of this project up and running on your local machine for development and testing purposes.
 
+1. Clone this repo
+2. Double click the index.html or use url (your-server-address/rootfolder/index.html) e.g: http://127.0.0.1:5500/js-test/index.html
+3. Now you can see the app in your browser
+
 ## Prerequisites
 
 To install this project on your local machine, you need first to clone the repository ```https://github.com/patricktunez123/js-test.git``` or download the zip file.
