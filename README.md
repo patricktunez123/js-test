@@ -9,6 +9,10 @@ Kapp's JavaScript Test. Click me to view it in your browser <https://patricktune
 - Javascript
 - HTML
 
+### Style
+
+- CSS
+
 ## How to set up and test this app
 
 These instructions will get you a copy of this project up and running on your local machine for development and testing purposes.
