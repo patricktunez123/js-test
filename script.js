@@ -1,9 +1,35 @@
 var postManager = function () {
 
     var container = document.getElementById('content');
-   
-    //YOUR CODE HERE
-    /* You have to order the following posts by userId (Ascending) then add them in a list inside the 'container' */
+    /* 
+     TEST ANSWERS
+     ============
+    */
+
+   const sortedPosts = 
+   postManager.
+   prototype.
+   posts.
+   sort((sorterOne, sorterTwo) => {
+        if(sorterOne.userId < sorterTwo.userId){
+            return -1;
+        }
+        if(sorterOne.userId > sorterTwo.userId){
+            return 1;
+        }
+        return 0;
+    })
+    // console.log('Posts are now sorted from 1 - 5 like: ', sortedPosts);
+
+    container.innerHTML = '';
+    const html = sortedPosts.map(post => {
+        let { userId, title, body } = post;
+        return `
+        <ul>
+        <li> <h3>${userId} ${title}</h3> <p>${body}</p></li>
+        </ul>`;
+    }).join('');
+    container.innerHTML = html;
 };
 
 postManager.prototype.posts = [

@@ -1,7 +1,6 @@
 # js-test
 
-Kapp's JavaScript Test
-------------------------------------------------------------------------------
+Kapp's JavaScript Test.
 
 ## Used Tools and Technologies
 
