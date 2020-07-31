@@ -4,7 +4,24 @@ var postManager = function () {
    
     //YOUR CODE HERE
     /* You have to order the following posts by userId (Ascending) then add them in a list inside the 'container' */
-};
+
+    /* 
+     TEST ANSWERS
+     ============
+    */
+
+    postManager.prototype.posts.sort((sorterOne, sorterTwo) => {
+        if(sorterOne.userId < sorterTwo.userId){
+            return -1;
+        }
+        if(sorterOne.userId > sorterTwo.userId){
+            return 1;
+        }
+        return 0;
+    })
+    const sortedPosts = postManager.prototype.posts;
+    // console.log('Posts are now sorted from 1 - 5 like: ', sortedPosts);
+    };
 
 postManager.prototype.posts = [
     {
