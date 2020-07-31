@@ -1,6 +1,6 @@
 # js-test
 
-Kapp's JavaScript Test. Click me to view it in your browser <https://patricktunez123.github.io/js-test/index.html>
+Kapp's JavaScript Test. Click this link to view this simple project in your browser <https://patricktunez123.github.io/js-test/index.html>
 
 ## Used Tools and Technologies
 
